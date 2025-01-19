@@ -1,0 +1,37 @@
+.transaction-history {
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .transaction-history thead {
+    background-color: #f3f6f9;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .transaction-history th {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .transaction-history tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .transaction-history td {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .transaction-history tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .transaction-history tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: default;
+  }
+  

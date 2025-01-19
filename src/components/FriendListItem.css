@@ -1,0 +1,27 @@
+.item .status {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .status.online {
+    background-color: #4caf50;
+  }
+  
+  .status.offline {
+    background-color: #f44336;
+  }
+  
+  .item .avatar {
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .item .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
